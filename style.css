@@ -1,0 +1,92 @@
+.navbar-design{
+  background-color: #050402;  /*Darkest Main */
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-color: transparent;
+}
+.general-font{
+  font-family: Muli;
+  background-color: #65391A;
+}
+.navbar-text.title-design{ 
+  padding-left: 50px;
+  font-size: 2em;
+  color: #F46500;  /* Brightest */
+  font-weight: bold;
+  font-style: Italic;
+}
+.buttons-design{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: Italic;
+  background-color: #000000;
+  color: #F46500;
+  
+  padding: 10px 20px;
+  
+   -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.7s;
+}
+.buttons-design:hover{
+   background-color: #F46500; 
+   color: #000000;
+}
+.buttons-location{
+  padding-top:10px;
+  padding-right: 50px;
+  text-align: right;
+
+}
+
+.intro-design{
+  background-color: #332114;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 3px 3px 1px 1px;
+}
+.intro-font{
+  font-size: 2em;
+  color: #F46500;
+  font-weight: bold;
+  font-style: Italic;
+}
+.contact-design{
+ border: transparent;
+ font-size: 1em;
+}
+.social-icons{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+.footer{
+  
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 60px;
+   width: 100%;
+   background-color: black;
+   border-color: transparent;
+}
+.footer-font{
+  font-family: Muli;
+  font-size: 15px;
+  padding-top: 20px;
+  color:
+}
+
+.a:hover{
+    text-decoration: none;
+}
